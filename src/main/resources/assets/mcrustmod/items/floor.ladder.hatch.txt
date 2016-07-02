@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1849912854,
+    "shortname": "floor.ladder.hatch",
+    "displayName": {
+        "token": "floor.ladder.hatch",
+        "english": "Ladder Hatch"
+    },
+    "displayDescription": {
+        "token": "floor.ladder.hatch.desc",
+        "english": "A hatch that opens and changes into a ladder"
+    },
+    "iconSprite": {
+        "instanceID": 25110
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 70486
+    },
+    "inventoryGrabSound": {
+        "instanceID": 70486
+    },
+    "inventoryDropSound": {
+        "instanceID": 91610
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "75947d8b06717e34b99f0ab7c55755d1"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 150.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 300.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": false,
+    "rarity": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

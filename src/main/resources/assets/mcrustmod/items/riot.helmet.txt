@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 340009023,
+    "shortname": "riot.helmet",
+    "displayName": {
+        "token": "riot.helmet",
+        "english": "Riot Helmet"
+    },
+    "displayDescription": {
+        "token": "riot.helmet.desc",
+        "english": "A makeshift riot Helmet. Great at deflecting melee attacks."
+    },
+    "iconSprite": {
+        "instanceID": 46446
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "b6d8cfa15ba0bff4a952f9d2d6cc0892"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 30.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 50.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+

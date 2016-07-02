@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1628526499,
+    "shortname": "water.barrel",
+    "displayName": {
+        "token": "water.barrel",
+        "english": "Water Barrel"
+    },
+    "displayDescription": {
+        "token": "water.barrel.desc",
+        "english": "A storage container for water"
+    },
+    "iconSprite": {
+        "instanceID": 105550
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 44838
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44838
+    },
+    "inventoryDropSound": {
+        "instanceID": 31302
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "6cc635218a41e19468851a467b1c33ab"
+    },
+    "showCrosshair": false
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 80.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 30.0
+        }
+    ],
+    "time": 120.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+

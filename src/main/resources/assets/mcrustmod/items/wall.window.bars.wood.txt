@@ -1,0 +1,99 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1556671423,
+    "shortname": "wall.window.bars.wood",
+    "displayName": {
+        "token": "wall.window.bars.wood",
+        "english": "Wooden Window Bars"
+    },
+    "displayDescription": {
+        "token": "wall.window.bars.wood.desc",
+        "english": "Window bars made out of wood. They'll stop people climbing through your window, but probably not for very long."
+    },
+    "iconSprite": {
+        "instanceID": 12320
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "stackable": 10,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 44838
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44838
+    },
+    "inventoryDropSound": {
+        "instanceID": 31302
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "9e039b417ec30c44e86f8e68f3919299"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 100.0
+        }
+    ],
+    "time": 20.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

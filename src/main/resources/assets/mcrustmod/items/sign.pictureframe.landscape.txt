@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -626812403,
+    "shortname": "sign.pictureframe.landscape",
+    "displayName": {
+        "token": "sign.pictureframe.landscape",
+        "english": "Landscape Picture Frame"
+    },
+    "displayDescription": {
+        "token": "sign.pictureframe.landscape.desc",
+        "english": "A landscape oriented canvas for artists paintings"
+    },
+    "iconSprite": {
+        "instanceID": 17810
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 44838
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44838
+    },
+    "inventoryDropSound": {
+        "instanceID": 31302
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 86070
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 150.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 150.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "b518d40c75ea6f545ba8da29b0fb29d2"
+    },
+    "showCrosshair": false
+}
+

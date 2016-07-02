@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -132588262,
+    "shortname": "attire.hide.skirt",
+    "displayName": {
+        "token": "attire.hide.skirt",
+        "english": "Hide Skirt"
+    },
+    "displayDescription": {
+        "token": "attire.hide.skirt.desc",
+        "english": "A Skirt made from the hide of an animal."
+    },
+    "iconSprite": {
+        "instanceID": 59326
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "901615b643c80484c8befa7e9d66fcf9"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 30.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 2
+}
+

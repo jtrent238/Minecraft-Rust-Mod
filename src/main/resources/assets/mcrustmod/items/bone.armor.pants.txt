@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 459479619,
+    "shortname": "bone.armor.pants",
+    "displayName": {
+        "token": "bone.armor.pants",
+        "english": "Bone Armor Pants"
+    },
+    "displayDescription": {
+        "token": "bone.armor.pants.desc",
+        "english": "Leg cover made from bones."
+    },
+    "iconSprite": {
+        "instanceID": 64320
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "4ab146f7547444f439274c76346ded75"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267300
+            },
+            "amount": 150.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+

@@ -1,0 +1,99 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 995306285,
+    "shortname": "wall.frame.fence.gate",
+    "displayName": {
+        "token": "wall.frame.fence.gate",
+        "english": "Chainlink Fence Gate"
+    },
+    "displayDescription": {
+        "token": "wall.frame.fence.gate.desc",
+        "english": "A Chainlink Fence Gate"
+    },
+    "iconSprite": {
+        "instanceID": 71154
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 69730
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69730
+    },
+    "inventoryDropSound": {
+        "instanceID": 69730
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "bad1d419cf594fa43b75bfc77d86403a"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 150.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": false,
+    "rarity": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

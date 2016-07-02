@@ -1,0 +1,99 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1284735799,
+    "shortname": "jackolantern.angry",
+    "displayName": {
+        "token": "jackolantern.angry",
+        "english": "Jack O Lantern Angry"
+    },
+    "displayDescription": {
+        "token": "jackolantern.angry.desc",
+        "english": "A Lantern. Place it where you need light."
+    },
+    "iconSprite": {
+        "instanceID": 104908
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "e4552d3568e98a042b061d9e722503c6"
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "a5495de869419a2429317b970a3a3cef"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118036
+            },
+            "amount": 2.0
+        }
+    ],
+    "time": 120.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

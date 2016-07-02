@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -2128719593,
+    "shortname": "coffeecan.helmet",
+    "displayName": {
+        "token": "coffeecan.helmet",
+        "english": "Coffee Can Helmet"
+    },
+    "displayDescription": {
+        "token": "coffeecan.helmet.desc",
+        "english": "A Coffee Can Helmet. It provides a level of regional protection from inflicted damage."
+    },
+    "iconSprite": {
+        "instanceID": 108766
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 66978
+    },
+    "inventoryGrabSound": {
+        "instanceID": 66978
+    },
+    "inventoryDropSound": {
+        "instanceID": 94838
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "2f6f32fafdb0adc409d493c497c4d862"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 15.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 60.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 3
+}
+

@@ -1,0 +1,98 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1351589500,
+    "shortname": "blueprint_fragment",
+    "displayName": {
+        "token": "blueprint_fragment",
+        "english": "Blueprint Fragment"
+    },
+    "displayDescription": {
+        "token": "blueprint_fragment.desc",
+        "english": "Scraps of various Blueprints. Collect 20 to construct a Blueprint, or 60 to create a Blueprint Page."
+    },
+    "iconSprite": {
+        "instanceID": 85352
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "stackable": 1000,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 109240
+    },
+    "inventoryGrabSound": {
+        "instanceID": 109240
+    },
+    "inventoryDropSound": {
+        "instanceID": 66416
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModUpgrade
+{
+    "numForUpgrade": 60,
+    "upgradeSuccessChance": 1.0,
+    "numToLoseOnFail": 10,
+    "upgradedItem": {
+        "instanceID": 286186
+    },
+    "numUpgradedItem": 1,
+    "successEffect": {
+        "guid": "8e605331e0992bc439057074561c125c"
+    },
+    "failEffect": {
+        "guid": "e5871e8d6093ec44a9541ba57d703441"
+    }
+}
+
+ItemModReveal
+{
+    "numForReveal": 20,
+    "revealedItemOverride": {
+        "instanceID": 0
+    },
+    "revealedItemAmount": 1,
+    "asBlueprint": false,
+    "revealList": {
+        "instanceID": 33714
+    },
+    "successEffect": {
+        "guid": "c1e5cd2928eb0304d9a2336cd3ec29d2"
+    }
+}
+

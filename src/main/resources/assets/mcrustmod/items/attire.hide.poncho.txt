@@ -1,0 +1,90 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 102672084,
+    "shortname": "attire.hide.poncho",
+    "displayName": {
+        "token": "attire.hide.poncho",
+        "english": "Hide Poncho"
+    },
+    "displayDescription": {
+        "token": "attire.hide.poncho.desc",
+        "english": "A Poncho made from the hide of an animal."
+    },
+    "iconSprite": {
+        "instanceID": 78270
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 250.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "866afbae89e8278489d57f5a8fee3cdf"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 267430
+            },
+            "amount": 70.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 2
+}
+

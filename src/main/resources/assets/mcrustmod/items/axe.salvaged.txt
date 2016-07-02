@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 790921853,
+    "shortname": "axe.salvaged",
+    "displayName": {
+        "token": "axe.salvaged",
+        "english": "Salvaged Axe"
+    },
+    "displayDescription": {
+        "token": "axe.salvaged.desc",
+        "english": "A high-yield resource gathering axe. Slower than the Hatchet."
+    },
+    "iconSprite": {
+        "instanceID": 21838
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 55726
+    },
+    "inventoryGrabSound": {
+        "instanceID": 55726
+    },
+    "inventoryDropSound": {
+        "instanceID": 82090
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "e6ddd0630ba71184c880db01214f872f"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "71216c2c986cad24f8c15e4b32b54de4"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 250.0
+        }
+    ],
+    "time": 120.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "690c0f36279f4874bbf4947d4e40800b"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 16.0,
+    "projectileVelocityRandom": 4.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet"
+}
+

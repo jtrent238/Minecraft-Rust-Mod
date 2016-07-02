@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1840561315,
+    "shortname": "water.purifier",
+    "displayName": {
+        "token": "water.purifier",
+        "english": "Water Purifier"
+    },
+    "displayDescription": {
+        "token": "water.purifier.desc",
+        "english": "A Water Purifier. Place overtop of a campfire. Will provide clean, potable water from salty, or stagnant water"
+    },
+    "iconSprite": {
+        "instanceID": 68500
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 69730
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69730
+    },
+    "inventoryDropSound": {
+        "instanceID": 46700
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "263d2916b1ec84045985c616154bf2a3"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 80.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 15.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "f29f03ec30da6c240bd9a7a42567d1b9"
+    },
+    "defaultBone": ""
+}
+

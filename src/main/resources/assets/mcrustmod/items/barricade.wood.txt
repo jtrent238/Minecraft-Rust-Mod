@@ -1,0 +1,99 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -814689390,
+    "shortname": "barricade.wood",
+    "displayName": {
+        "token": "barricade.wood",
+        "english": "Wooden Barricade"
+    },
+    "displayDescription": {
+        "token": "barricade.wood.desc",
+        "english": "A wooden barricade. Will hurt players and animals that run into it."
+    },
+    "iconSprite": {
+        "instanceID": 52502
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 44838
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44838
+    },
+    "inventoryDropSound": {
+        "instanceID": 31302
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "eba46207887c2304f8dfcf501253468b"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 350.0
+        }
+    ],
+    "time": 20.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 2
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

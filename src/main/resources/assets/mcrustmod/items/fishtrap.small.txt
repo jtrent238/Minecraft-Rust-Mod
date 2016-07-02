@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1369769822,
+    "shortname": "fishtrap.small",
+    "displayName": {
+        "token": "fishtrap.small",
+        "english": "Survival Fish Trap"
+    },
+    "displayDescription": {
+        "token": "fishtrap.small.desc",
+        "english": "Traps fish, place on the shore and load with bait."
+    },
+    "iconSprite": {
+        "instanceID": 76122
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 44838
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44838
+    },
+    "inventoryDropSound": {
+        "instanceID": 31302
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "75e4659c466dd6c4c921b59691bdeec6"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 2.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 0
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

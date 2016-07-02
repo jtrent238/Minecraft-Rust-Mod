@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1775234707,
+    "shortname": "salvaged.cleaver",
+    "displayName": {
+        "token": "salvaged.cleaver",
+        "english": "Salvaged Cleaver"
+    },
+    "displayDescription": {
+        "token": "salvaged.cleaver.desc",
+        "english": "A powerful 2-handed melee weapon with high damage."
+    },
+    "iconSprite": {
+        "instanceID": 99178
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 16536
+    },
+    "inventoryGrabSound": {
+        "instanceID": 16536
+    },
+    "inventoryDropSound": {
+        "instanceID": 75342
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "9d3f264cec438b047bc328efc7993f48"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "f2479b00f43786e47a76a42acbe7836f"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 30.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 175.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 3
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "9876bf5b9ac39514da82bd32fe86dd80"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 16.0,
+    "projectileVelocityRandom": 4.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet"
+}
+

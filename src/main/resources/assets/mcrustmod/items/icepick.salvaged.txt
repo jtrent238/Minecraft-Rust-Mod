@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1440143841,
+    "shortname": "icepick.salvaged",
+    "displayName": {
+        "token": "icepick.salvaged",
+        "english": "Salvaged Icepick"
+    },
+    "displayDescription": {
+        "token": "icepick.salvaged.desc",
+        "english": "A salvaged Icepick."
+    },
+    "iconSprite": {
+        "instanceID": 92064
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 55726
+    },
+    "inventoryGrabSound": {
+        "instanceID": 55726
+    },
+    "inventoryDropSound": {
+        "instanceID": 82090
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "8a06b22c116c1df44a871000ecaabea4"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "958d20a60d9f08d4589263680bc9ea0f"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 25.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 150.0
+        }
+    ],
+    "time": 180.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 3
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "b2419b143d4578d4d87f6f5f6c88b988"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 16.0,
+    "projectileVelocityRandom": 4.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet"
+}
+

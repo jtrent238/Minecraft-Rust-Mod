@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -505639592,
+    "shortname": "furnace",
+    "displayName": {
+        "token": "furnace",
+        "english": "Furnace"
+    },
+    "displayDescription": {
+        "token": "furnace.desc",
+        "english": "A Furnace. Use it to smelt mined ore."
+    },
+    "iconSprite": {
+        "instanceID": 76378
+    },
+    "category": 2,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 110382
+    },
+    "inventoryGrabSound": {
+        "instanceID": 110382
+    },
+    "inventoryDropSound": {
+        "instanceID": 40348
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "331e36d6e6fa2b048be59eeac7429a0d"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118544
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 200.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267292
+            },
+            "amount": 50.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 5
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+

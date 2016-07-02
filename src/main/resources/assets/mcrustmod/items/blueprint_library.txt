@@ -1,0 +1,81 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -845335793,
+    "shortname": "blueprint_library",
+    "displayName": {
+        "token": "item_name_blueprint_library",
+        "english": "Blueprint Library"
+    },
+    "displayDescription": {
+        "token": "item_desc_blueprint_library",
+        "english": "A large collection of Blueprints. You may be able to find something within these pages."
+    },
+    "iconSprite": {
+        "instanceID": 61882
+    },
+    "category": 10,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 109240
+    },
+    "inventoryGrabSound": {
+        "instanceID": 109240
+    },
+    "inventoryDropSound": {
+        "instanceID": 66416
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModReveal
+{
+    "numForReveal": 1,
+    "revealedItemOverride": {
+        "instanceID": 0
+    },
+    "revealedItemAmount": 1,
+    "asBlueprint": false,
+    "revealList": {
+        "instanceID": 100564
+    },
+    "successEffect": {
+        "guid": "c1e5cd2928eb0304d9a2336cd3ec29d2"
+    }
+}
+

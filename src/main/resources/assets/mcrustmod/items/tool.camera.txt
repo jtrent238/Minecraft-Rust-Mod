@@ -1,0 +1,73 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1342405573,
+    "shortname": "tool.camera",
+    "displayName": {
+        "token": "tool.camera",
+        "english": "Camera"
+    },
+    "displayDescription": {
+        "token": "tool.camera.desc",
+        "english": "A camera. Take screenshots with primary fire, zoom in and out with secondary fire, and lock focus with third fire."
+    },
+    "iconSprite": {
+        "instanceID": 45464
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 97816
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97816
+    },
+    "inventoryDropSound": {
+        "instanceID": 106074
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "5bb63491695f9cd4c83ab22a43d532b6"
+    },
+    "defaultBone": ""
+}
+

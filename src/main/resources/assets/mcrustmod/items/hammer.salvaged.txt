@@ -1,0 +1,113 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1976561211,
+    "shortname": "hammer.salvaged",
+    "displayName": {
+        "token": "hammer.salvaged",
+        "english": "Salvaged Hammer"
+    },
+    "displayDescription": {
+        "token": "hammer.salvaged.desc",
+        "english": "A Hammer made from a bunch of other crap."
+    },
+    "iconSprite": {
+        "instanceID": 14752
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 55726
+    },
+    "inventoryGrabSound": {
+        "instanceID": 55726
+    },
+    "inventoryDropSound": {
+        "instanceID": 82090
+    },
+    "physImpactSoft": {
+        "guid": "57b2677d984944a24abd0e22e9cc60f5"
+    },
+    "physImpactMed": {
+        "guid": "2985cc0944a4d4f8c8d47499f8a99b3d"
+    },
+    "physImpactHard": {
+        "guid": "69d37e2f821204277b305e728350a242"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 150.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "3b7fb466aa43f0c49b74300aa5c67998"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "bb42ebaca2dc24c47b082184b82063b9"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 100.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 50.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "54890bf9e523c7941861e99c0b3c1dd2"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 16.0,
+    "projectileVelocityRandom": 2.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet"
+}
+

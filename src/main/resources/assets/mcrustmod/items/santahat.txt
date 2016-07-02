@@ -1,0 +1,72 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 2007564590,
+    "shortname": "santahat",
+    "displayName": {
+        "token": "santahat",
+        "english": "Santa Hat"
+    },
+    "displayDescription": {
+        "token": "santahat.desc",
+        "english": "A santa hat. Ho Ho ho."
+    },
+    "iconSprite": {
+        "instanceID": 28250
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 37170
+    },
+    "inventoryGrabSound": {
+        "instanceID": 37170
+    },
+    "inventoryDropSound": {
+        "instanceID": 23712
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "7b4ccd05dcf17e34ea88955bb77adbbc"
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "9d335f67ef8472c44bdd9b97576e465c"
+    }
+}
+

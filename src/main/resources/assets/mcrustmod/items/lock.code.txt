@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -975723312,
+    "shortname": "lock.code",
+    "displayName": {
+        "token": "lock.code",
+        "english": "Code Lock"
+    },
+    "displayDescription": {
+        "token": "lock.code.desc",
+        "english": "An electronic lock. Locked and unlocked with four-digit code."
+    },
+    "iconSprite": {
+        "instanceID": 71782
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 69730
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69730
+    },
+    "inventoryDropSound": {
+        "instanceID": 46700
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "53f13cb930203794493fabe6457d8b7a"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 400.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 100.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 2
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "f29f03ec30da6c240bd9a7a42567d1b9"
+    },
+    "defaultBone": ""
+}
+

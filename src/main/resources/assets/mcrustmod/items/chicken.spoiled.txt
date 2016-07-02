@@ -1,0 +1,122 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -726947205,
+    "shortname": "chicken.spoiled",
+    "displayName": {
+        "token": "chicken.spoiled",
+        "english": "Spoiled Chicken"
+    },
+    "displayDescription": {
+        "token": "chicken.spoiled.desc",
+        "english": "Spoiled Chicken. Eating it will damage your health."
+    },
+    "iconSprite": {
+        "instanceID": 89376
+    },
+    "category": 7,
+    "selectionPanel": 0,
+    "stackable": 20,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 42150
+    },
+    "inventoryGrabSound": {
+        "instanceID": 42150
+    },
+    "inventoryDropSound": {
+        "instanceID": 96450
+    },
+    "physImpactSoft": {
+        "guid": "c9d814f9cb57d45d7b2bf902579857c3"
+    },
+    "physImpactMed": {
+        "guid": "e69cdd3cf6ab74c64b2967015f351353"
+    },
+    "physImpactHard": {
+        "guid": "35d84670cb82b41e194696f90914632a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "feefbe72a96452d4e8dd48eb7472fa43"
+    }
+}
+
+ItemModConsume
+{
+    "consumeEffect": {
+        "guid": ""
+    },
+    "eatGesture": "eat_2hand",
+    "product": []
+}
+
+ItemModConsumable
+{
+    "amountToConsume": 1,
+    "effects": [
+        {
+            "type": 0,
+            "amount": 10.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 1,
+            "amount": 2.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        },
+        {
+            "type": 3,
+            "amount": 10.0,
+            "time": 0.0,
+            "onlyIfHealthLessThan": 1.0
+        }
+    ]
+}
+
+ItemModMenuOption
+{
+    "commandName": "consume",
+    "actionTarget": {
+        "instanceID": 268366
+    },
+    "option": {
+        "name": {
+            "token": "eat",
+            "english": "Eat"
+        },
+        "description": {
+            "token": "eat_desc",
+            "english": "Eat this item."
+        },
+        "icon": {
+            "instanceID": 38434
+        },
+        "order": 0
+    },
+    "isPrimaryOption": true
+}
+

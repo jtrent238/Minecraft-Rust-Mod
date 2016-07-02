@@ -1,0 +1,124 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 449771810,
+    "shortname": "ammo.rifle.incendiary",
+    "displayName": {
+        "token": "ammo.rifle.incendiary",
+        "english": "Incendiary 5.56 Rifle Ammo"
+    },
+    "displayDescription": {
+        "token": "ammo.rifle.incendiary.desc",
+        "english": "Slower moving ammunition that deals fire damage. There's a small chance it will start a fire."
+    },
+    "iconSprite": {
+        "instanceID": 50644
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "stackable": 100,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 69730
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69730
+    },
+    "inventoryDropSound": {
+        "instanceID": 46700
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModProjectileSpawn
+{
+    "projectileObject": {
+        "guid": "db2727460d1b8404f91d6917c029e3fd"
+    },
+    "mods": [],
+    "ammoType": 2,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 225.0,
+    "projectileVelocityRandom": 10.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet",
+    "createOnImpactChance": 0.30000001192092898,
+    "createOnImpact": {
+        "guid": "f7c5775fec7dfc04c873abe8fcb0c43d"
+    },
+    "spreadAngle": 30.0,
+    "spreadVelocityMin": 1.0,
+    "spreadVelocityMax": 3.0
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267070
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118602
+            },
+            "amount": 5.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267292
+            },
+            "amount": 1.0
+        }
+    ],
+    "time": 10.0,
+    "amountToCreate": 2,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 3
+}
+

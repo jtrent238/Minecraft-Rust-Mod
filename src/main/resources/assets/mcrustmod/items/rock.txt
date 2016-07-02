@@ -1,0 +1,89 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 3506021,
+    "shortname": "rock",
+    "displayName": {
+        "token": "rock",
+        "english": "Rock"
+    },
+    "displayDescription": {
+        "token": "rock.desc",
+        "english": "A Rock. The most basic melee weapon and gathering tool."
+    },
+    "iconSprite": {
+        "instanceID": 96446
+    },
+    "category": 5,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 110382
+    },
+    "inventoryGrabSound": {
+        "instanceID": 110382
+    },
+    "inventoryDropSound": {
+        "instanceID": 40348
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "f93f12aa34a763a47a4961200c76df51"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "746cf6dfd00b08042a7991f4c4229a15"
+    },
+    "defaultBone": ""
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "8422248e6131639419c740e6af3d5879"
+    },
+    "mods": [],
+    "ammoType": 0,
+    "numProjectiles": 1,
+    "projectileSpread": 1.0,
+    "projectileVelocity": 12.0,
+    "projectileVelocityRandom": 3.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet"
+}
+

@@ -1,0 +1,117 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1461508848,
+    "shortname": "rifle.ak",
+    "displayName": {
+        "token": "rifle.ak",
+        "english": "Assault Rifle"
+    },
+    "displayDescription": {
+        "token": "rifle.ak.desc",
+        "english": "High damage machine rifle."
+    },
+    "iconSprite": {
+        "instanceID": 104470
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 97816
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97816
+    },
+    "inventoryDropSound": {
+        "instanceID": 106074
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.0,
+            "fractionMax": 0.019999999552965165
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "3dbfd2e1c05a20a4ba11f5be6cf1c5cf"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "b3ddcb0b691a3cc42b8e48f19490fe9a"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 266842
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 200.0
+        }
+    ],
+    "time": 180.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 4
+}
+
+ItemModContainer
+{
+    "capacity": 3,
+    "maxStackSize": 0,
+    "containerFlags": 224,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        4,
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

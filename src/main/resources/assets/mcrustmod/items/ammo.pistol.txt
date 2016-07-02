@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -533875561,
+    "shortname": "ammo.pistol",
+    "displayName": {
+        "token": "ammo.pistol",
+        "english": "Pistol Bullet"
+    },
+    "displayDescription": {
+        "token": "ammo.pistol.desc",
+        "english": "Ammunition for a Pistol."
+    },
+    "iconSprite": {
+        "instanceID": 48170
+    },
+    "category": 8,
+    "selectionPanel": 0,
+    "stackable": 64,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 69730
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69730
+    },
+    "inventoryDropSound": {
+        "instanceID": 46700
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModProjectile
+{
+    "projectileObject": {
+        "guid": "f5b0ab5cb1c8c2b4f8a67fe21d4266b1"
+    },
+    "mods": [],
+    "ammoType": 1,
+    "numProjectiles": 1,
+    "projectileSpread": 0.0,
+    "projectileVelocity": 300.0,
+    "projectileVelocityRandom": 10.0,
+    "maxVelocityDamageScale": 1.797693134862316e308,
+    "maxSkeletonDamageScale": 1.797693134862316e308,
+    "category": "bullet"
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267070
+            },
+            "amount": 5.0
+        }
+    ],
+    "time": 10.0,
+    "amountToCreate": 4,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 1
+}
+

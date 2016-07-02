@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1265861812,
+    "shortname": "metal.plate.torso",
+    "displayName": {
+        "token": "metal.plate.torso",
+        "english": "Metal Chest Plate"
+    },
+    "displayDescription": {
+        "token": "metal.plate.torso.desc",
+        "english": "A metal plate covering your torso. Can deflect attacks."
+    },
+    "iconSprite": {
+        "instanceID": 108874
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 4,
+    "inventorySelectSound": {
+        "instanceID": 70486
+    },
+    "inventoryGrabSound": {
+        "instanceID": 70486
+    },
+    "inventoryDropSound": {
+        "instanceID": 91610
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 360.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "886a60aea1199f64da0fdb1b8bcfeaed"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 267430
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 266842
+            },
+            "amount": 6.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 4
+}
+

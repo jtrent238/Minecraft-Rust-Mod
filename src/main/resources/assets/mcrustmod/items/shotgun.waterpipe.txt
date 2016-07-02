@@ -1,0 +1,116 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 2077983581,
+    "shortname": "shotgun.waterpipe",
+    "displayName": {
+        "token": "shotgun.waterpipe",
+        "english": "Waterpipe Shotgun"
+    },
+    "displayDescription": {
+        "token": "shotgun.waterpipe.desc",
+        "english": "A Shotgun. Fires a single round before reloading."
+    },
+    "iconSprite": {
+        "instanceID": 69466
+    },
+    "category": 0,
+    "selectionPanel": 2,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 97816
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97816
+    },
+    "inventoryDropSound": {
+        "instanceID": 106074
+    },
+    "physImpactSoft": {
+        "guid": "50b89622e896547e09d9d05f23d719cf"
+    },
+    "physImpactMed": {
+        "guid": "0c8519e5c42b745b69518b0ba5ddf963"
+    },
+    "physImpactHard": {
+        "guid": "d2f26ed90aa904715a2af041e014bc5a"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 0.25,
+            "fractionMax": 0.75
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "d307b4af6078f7943bb22a285309258e"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "9f50709ab59e8a64b8bdd20ea151cde5"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 300.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 100.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 3
+}
+
+ItemModContainer
+{
+    "capacity": 2,
+    "maxStackSize": 0,
+    "containerFlags": 224,
+    "onlyAllowedContents": 1,
+    "onlyAllowedItemType": {
+        "instanceID": 0
+    },
+    "availableSlots": [
+        2,
+        8,
+        16
+    ],
+    "openInDeployed": false,
+    "openInInventory": true,
+    "defaultContents": []
+}
+

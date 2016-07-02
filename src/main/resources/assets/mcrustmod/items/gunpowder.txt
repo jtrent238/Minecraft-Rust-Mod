@@ -1,0 +1,89 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": -1580059655,
+    "shortname": "gunpowder",
+    "displayName": {
+        "token": "gunpowder",
+        "english": "Gun Powder"
+    },
+    "displayDescription": {
+        "token": "gunpowder.desc",
+        "english": "Made from Sulphur and Charcoal."
+    },
+    "iconSprite": {
+        "instanceID": 92902
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "stackable": 1000,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118648
+            },
+            "amount": 30.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118602
+            },
+            "amount": 20.0
+        }
+    ],
+    "time": 10.0,
+    "amountToCreate": 10,
+    "userCraftable": true,
+    "defaultBlueprint": true,
+    "isResearchable": true,
+    "rarity": 2
+}
+

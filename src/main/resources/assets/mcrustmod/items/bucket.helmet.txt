@@ -1,0 +1,96 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1260209393,
+    "shortname": "bucket.helmet",
+    "displayName": {
+        "token": "bucket.helmet",
+        "english": "Bucket Helmet"
+    },
+    "displayDescription": {
+        "token": "bucket.helmet.desc",
+        "english": "A Bucket Helmet. It provides a level of regional protection from inflicted damage."
+    },
+    "iconSprite": {
+        "instanceID": 26066
+    },
+    "category": 4,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 2,
+    "inventorySelectSound": {
+        "instanceID": 66978
+    },
+    "inventoryGrabSound": {
+        "instanceID": 66978
+    },
+    "inventoryDropSound": {
+        "instanceID": 94838
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 200.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModWearable
+{
+    "entityPrefab": {
+        "guid": "42f2e788555f400459a2ee977c752ac6"
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118046
+            },
+            "amount": 20.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 40.0
+        }
+    ],
+    "time": 60.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+

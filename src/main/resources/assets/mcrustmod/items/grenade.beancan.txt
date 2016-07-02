@@ -1,0 +1,97 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 384204160,
+    "shortname": "grenade.beancan",
+    "displayName": {
+        "token": "grenade.beancan",
+        "english": "Beancan Grenade"
+    },
+    "displayDescription": {
+        "token": "grenade.beancan.desc",
+        "english": "Unreliable explosive device."
+    },
+    "iconSprite": {
+        "instanceID": 51540
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "stackable": 2,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 1,
+    "inventorySelectSound": {
+        "instanceID": 69730
+    },
+    "inventoryGrabSound": {
+        "instanceID": 69730
+    },
+    "inventoryDropSound": {
+        "instanceID": 46700
+    },
+    "physImpactSoft": {
+        "guid": "0058350d14f2b4267854839cf4016561"
+    },
+    "physImpactMed": {
+        "guid": "4957d9a1cea694c8e9f01d13fc8315a3"
+    },
+    "physImpactHard": {
+        "guid": "68ffd473c81d24ed388a692a7f7df2f3"
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": "48895a9ae9508c943b48f84cb30f80f5"
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "7c79d343f7201f744a91537acfc5e363"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 267070
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 20.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+

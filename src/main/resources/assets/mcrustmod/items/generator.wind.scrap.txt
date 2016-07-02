@@ -1,0 +1,111 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 277631078,
+    "shortname": "generator.wind.scrap",
+    "displayName": {
+        "token": "generator.wind.scrap",
+        "english": "Wind Turbine"
+    },
+    "displayDescription": {
+        "token": "generator.wind.scrap.desc",
+        "english": "Converts kinetic energy harvested from the wind into electricity."
+    },
+    "iconSprite": {
+        "instanceID": 48218
+    },
+    "category": 1,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 44838
+    },
+    "inventoryGrabSound": {
+        "instanceID": 44838
+    },
+    "inventoryDropSound": {
+        "instanceID": 31302
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118618
+            },
+            "amount": 1500.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 1000.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 266842
+            },
+            "amount": 100.0
+        }
+    ],
+    "time": 120.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": false,
+    "rarity": 0
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "a8e993d2290604446a4246ea1128dc92"
+    },
+    "showCrosshair": false
+}
+

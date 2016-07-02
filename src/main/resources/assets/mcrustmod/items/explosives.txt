@@ -1,0 +1,101 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1755466030,
+    "shortname": "explosives",
+    "displayName": {
+        "token": "explosives",
+        "english": "Explosives"
+    },
+    "displayDescription": {
+        "token": "explosives.desc",
+        "english": "Explosives, a component of C4."
+    },
+    "iconSprite": {
+        "instanceID": 98824
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "stackable": 100,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 267070
+            },
+            "amount": 50.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267292
+            },
+            "amount": 3.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118602
+            },
+            "amount": 10.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 10.0
+        }
+    ],
+    "time": 10.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 2
+}
+

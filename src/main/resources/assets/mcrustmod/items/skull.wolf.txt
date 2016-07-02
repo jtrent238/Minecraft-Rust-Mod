@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1001265731,
+    "shortname": "skull.wolf",
+    "displayName": {
+        "token": "skull.wolf",
+        "english": "Wolf Skull"
+    },
+    "displayDescription": {
+        "token": "skull.wolf.desc",
+        "english": "A wolf skull."
+    },
+    "iconSprite": {
+        "instanceID": 18766
+    },
+    "category": 3,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 100296
+    },
+    "inventoryGrabSound": {
+        "instanceID": 100296
+    },
+    "inventoryDropSound": {
+        "instanceID": 59438
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModSwap
+{
+    "actionEffect": {
+        "guid": ""
+    },
+    "becomeItem": [
+        {
+            "itemDef": {
+                "instanceID": 267300
+            },
+            "amount": 20.0
+        }
+    ],
+    "sendPlayerPickupNotification": true,
+    "sendPlayerDropNotification": true
+}
+
+ItemModMenuOption
+{
+    "commandName": "crush",
+    "actionTarget": {
+        "instanceID": 269496
+    },
+    "option": {
+        "name": {
+            "token": "crush",
+            "english": "Crush"
+        },
+        "description": {
+            "token": "crush_desc",
+            "english": "Crush into bone fragments"
+        },
+        "icon": {
+            "instanceID": 84868
+        },
+        "order": 0
+    },
+    "isPrimaryOption": false
+}
+

@@ -1,0 +1,99 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 1213686767,
+    "shortname": "weapon.mod.silencer",
+    "displayName": {
+        "token": "weapon.mod.silencer",
+        "english": "Silencer"
+    },
+    "displayDescription": {
+        "token": "weapon.mod.silencer.desc",
+        "english": "Significantly reduces the sound of gunfire, and completely removes any visible muzzle flash."
+    },
+    "iconSprite": {
+        "instanceID": 99708
+    },
+    "category": 0,
+    "selectionPanel": 0,
+    "stackable": 1,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 6,
+    "rarity": 3,
+    "inventorySelectSound": {
+        "instanceID": 97816
+    },
+    "inventoryGrabSound": {
+        "instanceID": 97816
+    },
+    "inventoryDropSound": {
+        "instanceID": 106074
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": true,
+        "max": 100.0,
+        "repairable": true,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 266842
+            },
+            "amount": 12.0
+        }
+    ],
+    "time": 120.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 4
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "3ba66eb6e3749f943aa9bb6379ae82d5"
+    },
+    "defaultBone": "barrel"
+}
+
+ItemModSound
+{
+    "effect": {
+        "guid": "6dcdd5002d969fa44bb4ad4516318606"
+    },
+    "actionType": 0
+}
+

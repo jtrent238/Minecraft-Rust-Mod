@@ -1,0 +1,105 @@
+This file is provided for informational purposes only. Changes aren't reflected in game.
+
+ItemDefinition
+{
+    "itemid": 255101535,
+    "shortname": "trap.landmine",
+    "displayName": {
+        "token": "trap.landmine",
+        "english": "Land Mine"
+    },
+    "displayDescription": {
+        "token": "trap.landmine.desc",
+        "english": "An old military Landmine. If you stand on one, you can ask a friend to disarm it before it explodes."
+    },
+    "iconSprite": {
+        "instanceID": 97948
+    },
+    "category": 9,
+    "selectionPanel": 0,
+    "stackable": 5,
+    "maxDraggable": 0,
+    "itemType": 1,
+    "amountType": 0,
+    "occupySlots": 0,
+    "rarity": 0,
+    "inventorySelectSound": {
+        "instanceID": 70486
+    },
+    "inventoryGrabSound": {
+        "instanceID": 70486
+    },
+    "inventoryDropSound": {
+        "instanceID": 91610
+    },
+    "physImpactSoft": {
+        "guid": ""
+    },
+    "physImpactMed": {
+        "guid": ""
+    },
+    "physImpactHard": {
+        "guid": ""
+    },
+    "hidden": false,
+    "flags": 0,
+    "needsBlueprint": {
+        "instanceID": 0
+    },
+    "steamItem": {
+        "instanceID": 0
+    },
+    "condition": {
+        "enabled": false,
+        "max": 0.0,
+        "repairable": false,
+        "foundCondition": {
+            "fractionMin": 1.0,
+            "fractionMax": 1.0
+        }
+    },
+    "worldModelPrefab": {
+        "guid": ""
+    }
+}
+
+ItemModDeployable
+{
+    "entityPrefab": {
+        "guid": "01fab81a0a3ca904e9e4e8c39201337a"
+    },
+    "showCrosshair": false
+}
+
+ItemBlueprint
+{
+    "ingredients": [
+        {
+            "itemDef": {
+                "instanceID": 118530
+            },
+            "amount": 75.0
+        },
+        {
+            "itemDef": {
+                "instanceID": 267070
+            },
+            "amount": 125.0
+        }
+    ],
+    "time": 30.0,
+    "amountToCreate": 1,
+    "userCraftable": true,
+    "defaultBlueprint": false,
+    "isResearchable": true,
+    "rarity": 3
+}
+
+ItemModEntity
+{
+    "entityPrefab": {
+        "guid": "838f80da553c1cc478050be83ef50558"
+    },
+    "defaultBone": ""
+}
+
