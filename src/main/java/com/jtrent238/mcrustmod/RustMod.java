@@ -65,7 +65,7 @@ public void init(FMLInitializationEvent event)
 	//ModLoader.LoadMods();
 	//InventoryLoader.LoadInventorys();
 	//SoundEvents.LoadSounds();
-	//Recipes.registerRecpies();
+	Recipes.registerRecpies();
 	//ChestGenHooks.getInfo(ChestGenHooks.BONUS_CHEST).addItem(new WeightedRandomChestContent(new ItemStack(ItemLoader.itemnyanapple), 2, 5, 20));
 	//MinecraftForge.addGrassSeed(new ItemStack(FoodModItems.StrawberrySeeds), 5);
 	//NetworkRegistry.instance().registerGuiHandler(instance, guiHandler);
@@ -167,6 +167,32 @@ public static CreativeTabs RustMod_Tools = new CreativeTabs("RustMod_Tools")
 	public String getBackgroundImageName() 
 	{
 		return "tabRustMod_Tools.png";
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public boolean drawInForegroundOfTab() 
+	{
+		return false;
+	}
+	
+	}
+;
+public static CreativeTabs RustMod_Farming = new CreativeTabs("RustMod_Farming")
+
+{
+	public Item getTabIconItem() {
+
+		return new ItemStack(ItemLoader.seed_hemp).getItem();
+		//Old Icon//return new ItemStack(Items.golden_apple).getItem();
+	}
+	public boolean hasSearchBar(){
+		return false;
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public String getBackgroundImageName() 
+	{
+		return "tabRustMod_Farming.png";
 	}
 	
 	@SideOnly(Side.CLIENT)
