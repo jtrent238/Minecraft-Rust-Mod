@@ -1,0 +1,51 @@
+Rust Mod Change Log
+
+1.0.0.1
+- Reduced Texture Resolution from 514x to 256x
+- Added chicken_raw 
+- Added chicken_cooked 
+- Added chicken_burned 
+- Added chicken_spoiled 
+- Added can_beans 
+- Added can_tuna 
+- Added candycane 
+- Added chocolate 
+- Added hatchet 
+- Added icepick_salvaged 
+- Added lantern 
+- Added pickaxe 
+- Added stone_pickaxe 
+- Added stone_hatchet 
+- Added seed_corn 
+- Added seed_hemp 
+- Added seed_pumpkin 
+- Added can_beans_empty 
+- Added can_tuna_empty 
+
+1.0.0.0
+- Added ammo_handmade_shell 
+- Added ammo_pistol_fire 
+- Added ammo_pistol_hv 
+- Added ammo_pistol 
+- Added ammo_rifle_explosive 
+- Added ammo_rifle_hv 
+- Added ammo_rifle_incendiary 
+- Added ammo_rifle 
+- Added ammo_rocket_basic 
+- Added ammo_rocket_fire 
+- Added ammo_rocket_hv 
+- Added ammo_rocket_smoke 
+- Added ammo_shotgun 
+- Added ammo_shotgun_slug 
+- Added arrow_hv 
+- Added arrow_wooden 
+- Added apple 
+- Added apple_spoiled 
+- Added bearmeat 
+- Added bearmeat_burned 
+- Added bearmeat_cooked 
+- Added black_raspberries 
+- Added blueberries 
+- Added axe_salvaged 
+- Added hammer 
+- Added hammer_salvaged 
